@@ -51,6 +51,13 @@ p {
     color: white;
 }
 
+.bg-more {
+    background-color: $theme-primary;
+    background-image: url('../img/more.jpg');
+    background-position: center;
+    color: white;
+}
+
 .text-faded {
     color: rgba(white, .7);
 }
@@ -175,7 +182,7 @@ header {
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                color: rgba(white, 1);
                 font-size: 16px;
                 margin-bottom: 50px;
             }
@@ -284,6 +291,7 @@ header {
     }
 }
 
+
 // Bootstrap Overrides
 .text-primary {
     color: $theme-primary;
@@ -313,6 +321,14 @@ header {
 
 .btn-xl {
     padding: 15px 30px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.1);
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+  }
 }
 
 // Contact
@@ -348,4 +364,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-
