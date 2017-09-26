@@ -4,6 +4,7 @@ description: Understand - Take Action. Security is a business requirement. Prote
 author: dario.com
 url: https://dario.pw
 baseurl: ''
+blog_url: 'blog'
 logo: "/img/chklst.png"
 email: contact@dario.com
 twitter_username: darioS3C
