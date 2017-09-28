@@ -27,6 +27,15 @@ a {
     }
 }
 
+a.light {
+    @include transition-all;
+    color: rgba(white, .95);
+    &:hover,
+    &:focus {
+        color: darken(white, 15%);
+    }
+}
+
 h1,
 h2,
 h3,
