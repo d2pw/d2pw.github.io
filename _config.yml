@@ -1,8 +1,9 @@
 # Site settings
-title: dario.com • Security • Privacy
+title: dario • Security • Privacy
 description: Understand - Take Action. Security is a business requirement. Protecting privacy is good business.
-author: dario.com
+author: dario
 url: https://dario.pw
+french_url: https://dario.site
 baseurl: ''
 blog_url: 'blog'
 logo: "/img/chklst.png"
