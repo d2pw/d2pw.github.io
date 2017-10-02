@@ -1,16 +1,16 @@
 # Site settings
-title: dario • Security • Privacy
-description: Understand - Take Action. Security is a business requirement. Protecting privacy is good business.
+title: dario.pw • Security • Privacy
+description: Security is a business requirement. Protecting privacy is good business. Understand - Take Action.
 author: dario
 url: https://dario.pw
 french_url: https://dario.site
 baseurl: ''
 blog_url: 'blog'
 logo: "/img/chklst.png"
-email: contact@dario.com
+email: contact@dario.pw
 twitter_username: darioS3C
-telephone_number: +1-514-572-0424
-copyright:
+telephone_number: +1-XXX-XXX-XXXX
+copyright: dario.pw • Security • Privacy
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
 gems:
