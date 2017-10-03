@@ -1,5 +1,5 @@
 # Site settings
-title: dario.pw • Security • Privacy
+title: dario • Security • Privacy
 description: Security is a business requirement. Protecting privacy is good business. Understand - Take Action.
 author: dario
 url: https://dario.pw
@@ -10,7 +10,7 @@ logo: "/img/chklst.png"
 email: contact@dario.pw
 twitter_username: darioS3C
 telephone_number: +1-XXX-XXX-XXXX
-copyright: dario.pw • Security • Privacy
+copyright: dario • Security • Privacy
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
 gems:
