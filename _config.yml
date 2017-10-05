@@ -8,8 +8,8 @@ baseurl: ''
 resources_url: 'resources'
 logo: "/img/chklst.png"
 email: contact@dario.pw
-twitter_username: darioS3C
-telephone_number: +1-XXX-XXX-XXXX
+twitter_username:
+telephone_number:
 copyright: dario • Security • Privacy
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
