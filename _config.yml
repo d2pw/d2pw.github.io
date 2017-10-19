@@ -1,8 +1,9 @@
 # Site settings
 title: dario.pw • Security • Privacy
 description: Security is a business requirement. Protecting privacy is good business. Protect your data and business.
-author: dario
+author: dario.pw
 url: https://dario.pw
+english_url: https://dario.pw
 french_url: https://dario.site
 baseurl: ''
 resources_url: 'resources'
