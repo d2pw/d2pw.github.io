@@ -12,11 +12,8 @@ email: contact@dario.pw
 twitter_username: darioS3C
 telephone_number:
 copyright: dario.pw • Security • Privacy
-
-# Google Analytics
-# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# Google Analytics • To enable google analytics, uncomment below line with a valid Google Tracking ID
 google_tracking_id: UA-98131817-4
-
 # exclude
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
 gems:
