@@ -36,6 +36,16 @@ a.light {
     }
 }
 
+a.resources {
+    @include transition-all;
+    color: rgba(white, 1);
+    text-shadow: 1px 1px 6px white;
+    &:hover,
+    &:focus {
+        color: darken(white, 15%);
+    }
+}
+
 h1,
 h2,
 h3,
