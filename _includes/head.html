@@ -7,7 +7,7 @@
 
     <title>{{ site.title }}</title>
 
-    <link rel="canonical" href="{{ site.url }}">
+
     <link rel="apple-touch-icon" href="{{ site.url }}/img/chklst.png"/>
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}/favicon.ico" type="image/x-icon"/>
     <link rel="icon" href="{{ site.url }}/favicon.ico" type="image/x-icon">
@@ -24,6 +24,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
+    <meta name="robots" content="index, follow">
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,9 +34,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <meta name="robots" content="index, follow">
+    <!-- remove SEO for testing of SEO gem
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
 
-    <!-- Twitter Card data -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="{{ site.twitter_username }}" />
     <meta name="twitter:title" content="{{ site.title }}" />
@@ -41,12 +44,15 @@
     <meta name="twitter:creator" content="{{ site.author }}" />
     <meta name="twitter:image" content="{{ site.url }}/img/chklst.png" />
 
-    <!-- Open Graph data -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ site.title }}" />
     <meta property="og:url" content="{{ site.url }}" />
     <meta property="og:image:secure_url" content="{{ site.url }}/img/chklst.png" />
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
+    -->
+
+    <!-- entry for Jekyll plugin to generate SEO -->
+    {% seo title=false %}
 
 </head>

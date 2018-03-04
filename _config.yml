@@ -1,20 +1,47 @@
 # Site settings
 title: dario.pw • Security • Privacy
+# copyright text in footer
+copyright: dario.pw • Security • Privacy
+# website logos, images & icons
+header-img:
+logo: "/img/chklst.png"
 description: Security is a business requirement. Protecting privacy is good business. Protect your data and business. dario.pw
-author: dario.pw
+# urls
 url: https://dario.pw
 english_url: https://dario.pw
 french_url: https://dario.site
 baseurl: ''
 resources_url: 'resources'
-logo: "/img/chklst.png"
+author:
+# Language format language_TERRITORY. Default is en_US
+lang: en_US
+# email address
 email: contact@dario.pw
-twitter_username: darioS3C
+# email address in privacy policy
+email_privacy:
+# contact telephone number
 telephone_number:
-copyright: dario.pw • Security • Privacy
+# search tracking id for dario.pw
 google_tracking_id: UA-98131817-4
+webmaster_verifications:
+  google: jKNeXGKZ4e1CsWLJx1vciAX-AIUBkpglQ_LG5jZfQKc
+  bing:
+  alexa:
+  yandex:
+  baidu:
+# Social accounts
+twitter:
+  username: darioS3C
+twitter_username: darioS3C
+github_username:
+facebook_username:
+facebook:
+ app_id:
+ publisher:
+ admins:
 exclude: ["CNAME", "Gemfile", "Gemfile.lock", "NOTICE", "LICENSE", "README.md"]
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
 # Build settings
 markdown: kramdown
