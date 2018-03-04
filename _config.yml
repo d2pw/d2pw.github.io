@@ -3,7 +3,7 @@ title: dario.pw • Security • Privacy
 # copyright text in footer
 copyright: dario.pw • Security • Privacy
 # website logos, images & icons
-header-img:
+header-img: "img/header.jpg"
 logo: "/img/chklst.png"
 description: Security is a business requirement. Protecting privacy is good business. Protect your data and business. dario.pw
 # urls
@@ -16,8 +16,6 @@ author:
 # Language format language_TERRITORY. Default is en_US
 lang: en_US
 # email address
-email: contact@dario.pw
-# email address in privacy policy
 email_privacy:
 # contact telephone number
 telephone_number:
