@@ -5,6 +5,10 @@
 
     <title>{{ site.title }}</title>
 
+    <!-- Theme Color for Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#5478c4">
+
+    <!-- <meta name="robots" content="index, follow"> -->
 
     <link rel="apple-touch-icon" href="{{ site.url }}/img/chklst.png"/>
     <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="{{ site.url }}/favicon.ico" type="image/x-icon"/>
@@ -22,9 +26,6 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css" type="text/css">
 
-    <meta name="robots" content="index, follow">
-
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -35,7 +36,7 @@
     <!-- remove SEO for testing of SEO gem
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="{{ site.author }}">
-    
+
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
 
     <meta name="twitter:card" content="summary" />
@@ -44,7 +45,6 @@
     <meta name="twitter:description" content="{{ site.description }}" />
     <meta name="twitter:creator" content="{{ site.author }}" />
     <meta name="twitter:image" content="{{ site.url }}/img/chklst.png" />
-
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ site.title }}" />
     <meta property="og:url" content="{{ site.url }}" />
@@ -52,6 +52,12 @@
     <meta property="og:description" content="{{ site.description }}" />
     <meta property="og:site_name" content="{{ site.title }}" />
     -->
+
+    <meta name="twitter:image" content="{{ site.url }}/img/chklst.png" />
+    <meta name="twitter:title" content="{{ site.title }}"/>
+    <meta name="twitter:description" content="{{ site.description }}"/>
+    <meta property="og:image:secure_url" content="{{ site.url }}/img/chklst.png" />
+    <meta property="og:type" content="website" />
 
     <!-- entry for Jekyll plugin to generate SEO -->
     {% seo title=false %}
