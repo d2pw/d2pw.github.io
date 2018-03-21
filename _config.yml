@@ -6,7 +6,7 @@ author: dario.pw
 lang: en_US
 # website logos, images & icons
 logo: /img/chklst.png
-image: "img/header.jpg"
+image: /img/header.jpg
 # urls
 url: https://dario.pw
 english_url: https://dario.pw
@@ -34,7 +34,7 @@ webmaster_verifications:
   yandex:
   baidu:
 
-# Social accounts
+# Social/SEO
 twitter_username: darioS3C
 github_username:
 facebook_username:
