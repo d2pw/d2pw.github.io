@@ -5,8 +5,8 @@ author: dario.pw
 # Language format language_TERRITORY. Default is en_US
 lang: en_US
 # website logos, images & icons
-logo: /img/chklst.png
-image: /img/header.jpg
+logo: img/chklst.png
+image: img/header.jpg
 # urls
 url: https://dario.pw
 english_url: https://dario.pw
