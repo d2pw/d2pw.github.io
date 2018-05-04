@@ -19,7 +19,9 @@ copyright: dario.pw • Security
 
 # email address
 email: contact@dario.pw
-email_privacy:
+email_username: contact@dario.pw
+# email address in privacy policy
+email_privacy: privacy@dario.pw
 
 # contact telephone number
 telephone_number:
