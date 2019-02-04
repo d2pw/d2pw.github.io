@@ -73,6 +73,13 @@ p {
     color: white;
 }
 
+.bg-gdpr {
+    background-color: $theme-primary;
+    background-image: url('../img/gdpr.jpg');
+    background-position: center;
+    color: white;
+}
+
 .bg-resources {
     background-color: $theme-primary;
     background-image: url('../img/resources.jpg');
